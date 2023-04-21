@@ -1,0 +1,67 @@
+@font-face {
+  font-family: TekoFont;
+  src: url("/fonts/Teko-Regular.ttf");
+}
+* {
+  font-family: TekoFont;
+}
+
+body {
+  color: white;
+  background-color: rgb(54, 54, 54);
+  margin: 25px;
+}
+
+.container {
+  background-color: #bdbdbd;
+  border-radius: 25px;
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container div {
+  background-color: #413b55;
+  width: 34rem;
+  min-width: 29rem;
+  max-width: 37rem;
+  height: 18rem;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  flex-direction: column;
+  word-wrap: break-word;
+  height: fit-content;
+  margin: auto;
+  padding: 30px;
+  border-radius: 25px;
+}
+.container div #quotation {
+  text-indent: 12pt;
+  font-size: 23pt;
+}
+.container div #author {
+  margin: 0 0 3px;
+  color: rgba(248, 248, 87, 0.884);
+  text-align: end;
+}
+.container button {
+  position: fixed;
+  top: 86%;
+  left: 36%;
+  z-index: 1;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  border-radius: 25px;
+  width: 9rem;
+  min-width: 7rem;
+  max-width: 11rem;
+  height: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
